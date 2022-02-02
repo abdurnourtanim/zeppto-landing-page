@@ -1,0 +1,125 @@
+/* font-family cdn link */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+/* reusable css */
+:root {
+  --var-main-color: #4169e1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #000;
+  font-weight: 500;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+.container {
+  width: 1140px;
+  max-width: 100%;
+  margin: auto;
+}
+.btn {
+  background-color: var(--var-main-color);
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 10px 20px !important;
+}
+
+/* Navbar css start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+.nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__item {
+  margin: 10px 15px;
+  transition: all 0.3s;
+}
+.nav__item.btn:hover a {
+  color: #fff;
+}
+.btn a {
+  color: #fff;
+}
+
+.nav__item:hover a {
+  color: var(--var-main-color);
+  border-bottom: 1px solid var(--var-main-color);
+}
+/* Navbar css end */
+
+/* Header css end */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  position: relative;
+}
+.line {
+  position: absolute;
+  top: 50px;
+  left: -30px;
+}
+.content h1 {
+  font-size: 44px;
+}
+.content p {
+  margin: 22px 0;
+  color: gray;
+}
+.button .btn {
+  outline: none;
+  border: none;
+}
+.button .btn a {
+  color: #fff;
+}
+.button span a {
+  font-weight: normal;
+  color: #000;
+}
+.illustration {
+  margin-top: 50px;
+}
+
+/* Header css end */
+
+/* sponsor css end */
+.sponsor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.sponsor .sponsor__item {
+  margin: 0 65px;
+}
+.sponsor .sponsor__item:first-child {
+  margin-left: 0;
+}
+.sponsor .sponsor__item:last-child {
+  margin-right: 0;
+}
+/* sponsor css end */
